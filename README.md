@@ -1,5 +1,80 @@
 # **Project 1: AdventureWorks**
 
+## **Table of Contents**
+
+1. [Background and Overview](#1-background-and-overview)
+2. [Data Structure Overview](#2-data-structure-overview)
+3. [Executive Summary](#3-executive-summary)
+4. [Insights Deep Dive](#4-insights-deep-dive)
+5. [Recommendations](#5-recommendations)
+
+## **Data Source**
+This project uses the AdventureWorks dataset provided through the Udemy course:  
+**Microsoft Power BI – Up & Running With Power BI Desktop**  
+🔗 https://www.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop/
+
+---
+
+## **Tools Used**
+### **Power BI Desktop**
+Used for:
+
+#### **ETL Process (Extract, Transform, Load)**
+- Importing raw CSV and Excel files  
+- Cleaning missing values and standardizing data  
+- Creating and managing data model relationships  
+- Designing a snowflake structure  
+- Applying Power Query transformations  
+
+#### **Data Analysis**
+- Building DAX measures such as:  
+  - Total Sales  
+  - Total Revenue  
+  - Total Profit  
+  - Profit Margin  
+  - Sales by Category   
+- Creating calculated columns (e.g., full customer name, cost vs. price metrics)
+
+#### **Reporting & Visualization**
+- Designing interactive dashboards and report pages  
+- Creating charts, cards, KPIs, maps, and slicers  
+- Implementing drill-downs, tooltips, and dynamic filtering  
+- Organizing insights into clear and intuitive layouts
+
+---
+
+## **ETL + DAX Summary**
+
+### **ETL Steps (Power Query)**
+1. **Extract**
+   - Imported sales, product, customer, territory, and inventory tables.
+2. **Transform**
+   - Standardized data types  
+   - Removed duplicates  
+   - Cleaned and reshaped columns  
+   - Normalized date formats  
+   - Isolated lookup/reference tables  
+   - Filtered invalid or irrelevant rows  
+3. **Load**
+   - Loaded transformed tables into Power BI  
+   - Built relational links using CustomerKey, ProductKey, and TerritoryKey  
+
+### **DAX Measures Summary**
+- **Sales & Revenue Metrics**
+  - Total Sales  
+  - Total Revenue  
+  - Total Profit  
+  - Profit Margin %  
+- **Time Intelligence**
+  - 90-day Rolling Profit
+  - 10-day Rolling Revenue 
+  - YTD Revenue  
+- **Averages**
+  - Average Retail Price
+  - Average Revenue per Customer
+
+These are few of the measures used that support analysis of trends, product performance, profitability, and customer behavior.
+
 ---
 
 ## **1. Background and Overview**
