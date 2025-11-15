@@ -1,4 +1,4 @@
-# **Project 1: AdventureWorks**
+# **Maven Analytics - Project 1: AdventureWorks**
 
 ## **Table of Contents**
 
